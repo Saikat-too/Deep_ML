@@ -30,5 +30,5 @@ better model
 Reinforcement learning is a subfield of machine learning where the machine lives in an environment and is capable of
 perceiving the state fo that environment as a vector of features .The machine can execute actions in every
 state. Different actions bring different rewards and could also move the machine to another state of the
-environment.The goal of a reinforcement learning algorithm is to learn a policy. A policy is a function #f#
+environment.The goal of a reinforcement learning algorithm is to learn a policy. A policy is a function $f$
 that takes the feature vector of a state as input and outputs an optimal actiont to execute in that state.
