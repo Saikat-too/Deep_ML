@@ -32,3 +32,46 @@ perceiving the state fo that environment as a vector of features .The machine ca
 state. Different actions bring different rewards and could also move the machine to another state of the
 environment.The goal of a reinforcement learning algorithm is to learn a policy. A policy is a function $f$
 that takes the feature vector of a state as input and outputs an optimal actiont to execute in that state.
+
+# Notations and Definitions
+
+## 2.1 Derivative and Gradient
+A derivative $f`$ of  a function f is a function or a value that describes how fast f grows or
+decrease . If the derivative is a constant value , liek 5 or -3 , then the function grows or
+decreases constantly at any point of x of its domain . If the derivative $f`$ is function , then
+the function f grow at a different pace in different regions of its domain. If the derivative of
+$f$ is positive at some point $x$ , then the function $f$ grows at this point. If the derivative of
+$f$ is negative at some point $x$ , then the function $f$ decrease at this point . The derivative
+of zero at $x$ means that the function's slope at $x$ is horizontal.
+
+Gradient is the generalization of derivative for functions that take several inputs (or one input
+in the form of a vector or some other complex structure). A gradient of a function in a vector
+of partial derivatives . You can look at finding a partial derivative of a function as the
+process of finding the derivative by focusing on one of the function's inputs and by considering
+all other inputs as constant values.
+
+## 2.2 Random Variable
+A random variable , usually written as an italic capital letter , like $X$ , is a variable whose
+possible values are numerical outcomes of a random phenomenon . There are two types of random variables:
+discrete and continuous .
+
+A discrete random variables takes on only a countable number of distinct values such as red , yellow or
+1 , 2 ,3 .
+
+Probablity Mass Function(pmf) = $Pr(X = red) = 0.3 $ . Each probability in a probability maass function is a
+value greater than or equal to 0. The sum of probabilities equals 1 .
+
+A continuous random variable takes an infinite number of possible values in some interval. Examples include height,
+weight and time . Because the number of values of a continuous random variable $X$ is infinite , the probability
+$Pr(X == c)$ for any c is 0 . Therefore , instead of the list of probabilities , the probability distribution
+of a continuous random variable is described by a probability density function(pdf).The pdf is  a function
+whose codomain is nonnegative and the area under the curve is eequal to 1 .
+
+$EX[X]=\sum_{i=1}^{k}{x_i}{Pr}{(X = {x_i}} = {x_1}{Pr(X = {x_1})}+{x_2}{Pr(X = {x_2})}+...+{x_k}{Pr(X = {x_k})}$
+$EX[X]=\int_{mathbb{R}} xf_x(x)dx$
+
+## 2.3 Bayes Rule
+The conditional probablity $Pr(X==x | Y == y)$ is the probability of the random variable $\mathbb{X}$ to have a specific value $x$ given that
+another random variable $\mathbb{Y} has a specific value of $y$ . The Bayes' Rule(also knows as the Bayes' Theorem) stipulates that
+
+$Pr(X = x | Y = y) = \frac {Pr(Y = y| X = x)Pr(X = x)} {Pr(Y = y)}.
