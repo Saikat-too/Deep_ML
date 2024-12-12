@@ -67,11 +67,11 @@ $Pr(X == c)$ for any c is 0 . Therefore , instead of the list of probabilities ,
 of a continuous random variable is described by a probability density function(pdf).The pdf is  a function
 whose codomain is nonnegative and the area under the curve is eequal to 1 .
 
-$EX[X]=\sum_{i=1}^{k}{x_i}{Pr}{(X = {x_i}} = {x_1}{Pr(X = {x_1})}+{x_2}{Pr(X = {x_2})}+...+{x_k}{Pr(X = {x_k})}$
-$EX[X]=\int_{mathbb{R}} xf_x(x)dx$
+$\mathbb{R}[X]=\sum_{i=1}^{k}{x_i}{Pr}{(X = {x_i}} = {x_1}{Pr(X = {x_1})}+{x_2}{Pr(X = {x_2})}+...+{x_k}{Pr(X = {x_k})}$
+$\mathbb{R}[X]=\int_{\mathbb{R}} xf_x(x)dx$
 
 ## 2.3 Bayes Rule
 The conditional probablity $Pr(X==x | Y == y)$ is the probability of the random variable $\mathbb{X}$ to have a specific value $x$ given that
 another random variable $\mathbb{Y} has a specific value of $y$ . The Bayes' Rule(also knows as the Bayes' Theorem) stipulates that
 
-$Pr(X = x | Y = y) = \frac {Pr(Y = y| X = x)Pr(X = x)} {Pr(Y = y)}.
+$Pr(X = x | Y = y) = \frac {Pr(Y = y| X = x)Pr(X = x)} {Pr(Y = y)}$.
