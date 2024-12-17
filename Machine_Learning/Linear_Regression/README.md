@@ -4,7 +4,7 @@ Linear regression is a popular regression learning algorithm that learns a model
 
 ## 3.1
 
-We have a collection of labeled examples ${(x_i , y_i)}_{i=1}^{N}$----------(1) , where $N$ is the size of the collection, {x_i} is the $D$-dimensional
+We have a collection of labeled examples ${(x_i , y_i)}_{i=1}^{N}$----------(1) , where $N$ is the size of the collection, ${x_i}$ is the $D$-dimensional
 feature vector of example i = 1, ...., N, ${y_i}$ is real-valued target and every feature ${x_i}^{(j)}$ , j = 1 , ... ,D, is also a real
 number.
 
