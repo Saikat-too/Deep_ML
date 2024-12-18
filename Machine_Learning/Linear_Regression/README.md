@@ -29,9 +29,9 @@ gives us the optimal values $\mathbf{w}$ and $\mathbf{b}$.
 
 The normal equation is a closed form solution to find the value of $\theta$ that minimizes the cost functionn for ordinary linear
 regression . Another way to describe the normal equation is an analytical to fnd the coefficients that minimize the loss
-function. Linear regression makes a prediction y_hat . $\textbf{\hat{y} = \theta_{0}x_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} +...+\theta_{n}x_{n}}$.
-Where $\mathbf{\theta}$ represents the parameters and $\mathbf{n}$ is the number of features. In vector form $\textbf{\hat{y}= h(\theta)}$.
-$\textbf{h(\theta)}$ is the hypothesis function.Given this approximate target function. We can use our model to make predictions to determine if our model has learned well
+function. Linear regression makes a prediction y_hat . $\mathbf{\hat{y} = \theta_{0}x_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} +...+\theta_{n}x_{n}}$.
+Where $\mathbf{\theta}$ represents the parameters and $\mathbf{n}$ is the number of features. In vector form $\mathbf{\hat{y}= h(\theta)}$.
+$\mathbf{h(\theta)}$ is the hypothesis function.Given this approximate target function. We can use our model to make predictions to determine if our model has learned well
 It's important we measure the performance of our model on the training data . For this purpose , we compute a loss function . The goal of the function
-is to find $\textbf{theta}$ that minimize our loss function. Loss function mathmatical form $\textbf{J(\theta_{0},\theta_{1},...,\theta_{m}) = \frac{1}{2m}\sum_{i=1}^{m}
-(h_\theta(x_(i))-y^(i))^2}$  . The equation for normal equation : $\textbf{(X^{T}X)^{-1}X^{T}y}$
+is to find $\mathbf{theta}$ that minimize our loss function. Loss function mathmatical form $\mathbf{J(\theta_{0},\theta_{1},...,\theta_{m}) = \frac{1}{2m}\sum_{i=1}^{m}
+(h_\theta(x_(i))-y^(i))^2}$  . The equation for normal equation : $\mathbf{(X^{T}X)^{-1}X^{T}y}$
