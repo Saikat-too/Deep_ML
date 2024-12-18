@@ -34,4 +34,4 @@ Where $\mathbf{\theta}$ represents the parameters and $\mathbf{n}$ is the number
 $\mathbf{h(\theta)}$ is the hypothesis function.Given this approximate target function. We can use our model to make predictions to determine if our model has learned well
 It's important we measure the performance of our model on the training data . For this purpose , we compute a loss function . The goal of the function
 is to find $\mathbf{theta}$ that minimize our loss function. Loss function mathmatical form $\mathbf{J(\theta_{0},\theta_{1},...,\theta_{m}) = \frac{1}{2m}\sum_{i=1}^{m}
-(h_\theta(x_(i))-y^(i))^2}$  . The equation for normal equation : $\mathbf{(X^{T}X)^{-1}X^{T}y}$
+(h_\theta(x_(i))-y^(i))^2}$  . The  normal equation : $\mathbf{\theta = (X^{T}X)^{-1}X^{T}y}$
