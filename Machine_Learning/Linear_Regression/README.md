@@ -35,3 +35,10 @@ $\mathbf{h(\theta)}$ is the hypothesis function.Given this approximate target fu
 It's important we measure the performance of our model on the training data . For this purpose , we compute a loss function . The goal of the function
 is to find $\mathbf{theta}$ that minimize our loss function. Loss function mathmatical form $\mathbf{J(\theta_{0},\theta_{1},...,\theta_{m}) = \frac{1}{2m}\sum_{i=1}^{m}
 (h_\theta(x_(i))-y^(i))^2}$  . The  normal equation : $\mathbf{\theta = (X^{T}X)^{-1}X^{T}y}$
+
+## Gradient Descent
+
+$\textbf{MSE(J)} = \frac{1}{2n}\sum_{i=1}{n}(mx_{i} - y)^2$
+$\frac{\partial J}{partial m} = \frac_{1}{n}(mx_{i} - y)x_{i}$
+
+here J = $\textbf{cost}$ , m = $\textbf{slop/intercept}$ , x = $\textbf{input}$ , y = $\textbf{output}$
