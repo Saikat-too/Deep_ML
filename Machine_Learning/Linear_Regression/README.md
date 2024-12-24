@@ -48,6 +48,6 @@ $\textbf{MSE(J)} = \frac{1}{2n}\sum_{i=1}^{n}(mx_{i} - y)^2$
 After differentiating cost function with respect to the slop or coefficient $\textbf{m}$
 $\frac{\partial J}{\partial m} = \frac{1}{n}(mx_{i} - y)x_{i}$
 
-here changing in m will be : $\textbf{m} = \textbf{m} \textbf{learning rate} * \mathbf{\frac{\partial J}{\partial m}}$
+here changing in m will be : $\textbf{m} = \textbf{m} \textbf{-} \textbf{learning rate} * \mathbf{\frac{\partial J}{\partial m}}$
 
 here J = $\textbf{cost}$ , m = $\textbf{slop/intercept}$ , x = $\textbf{input}$ , y = $\textbf{output}$
