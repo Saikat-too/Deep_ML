@@ -39,6 +39,8 @@ is to find $\mathbf{theta}$ that minimize our loss function. Loss function mathm
 ## Gradient Descent
 
 $\textbf{MSE(J)} = \frac{1}{2n}\sum_{i=1}{n}(mx_{i} - y)^2$
-$\frac{\partial J}{\partial m} = \frac_{1}{n}(mx_{i} - y)x_{i}$
+$\frac{\partial J}{\partial m} = \frac{1}{n}(mx_{i} - y)x_{i}$
+
+here changing in m will be : $ m = m - learning_rate * \frac{\partial J}{\partial m}
 
 here J = $\textbf{cost}$ , m = $\textbf{slop/intercept}$ , x = $\textbf{input}$ , y = $\textbf{output}$
